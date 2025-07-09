@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" lang="js"></script>
 </head>
 
 <body>
-    <h1>Programmation</h1>
+    <h1>FORMULAIRE D'INSCRIPTION</h1>
+    <fieldset>
+        <legend>inscription</legend>
+        <form action="" id="form1">
+            <label for="name">Entrez votre nom </label><br>
+            <input type="text" id="name" required><br><br>
+            <label for="prenom">Entrez votre prenom</label><br>
+            <input type="text" id="prenom"><br><br>
+            <label for="age">Entrez votre age</label><br>
+            <input type="number" id="age"><br><br>
+            <label for="dat">Entrez votre date de naissance</label><br>
+            <input type="date" id="dat"><br><br>
+            <label for="mail">Entrez votre email</label><br>
+            <input type="email" id="mail"><br><br>
+
+    </fieldset>
+    <input type="submit" id="envoyer">
+    </form>
 </body>
 
 </html>

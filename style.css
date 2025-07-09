@@ -1,0 +1,28 @@
+body {
+    background-color: beige;
+}
+
+fieldset {
+    justify-content: center;
+    display: flex;
+    margin: 100px;
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+}
+
+label {
+    font-size: 40px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+#envoyer {
+    width: auto;
+    margin-left: 100px;
+}
